@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#second-section {
+	height: 100vh;
+	width: 100%;
+	background: white;
+	padding-left: 10%;
+	padding-top: 40px;
+}
+
+aside {
+	height: 100%;
+	width: 210px;
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+aside > * {
+	width: 210px;
+}
+
+#line-1 {
+	height: 5px;
+	background-color: black;
+}
+
+#line-2 {
+	height: 3px;
+	background-color: grey;
+	margin-top: 3px;
+}
+
+#heading {
+	height: 40px;
+	background-color: antiquewhite;
+	display: flex;
+	align-items: center;
+}
+
+#heading h1 {
+	font-size: 20px;
+}
+
+#content {
+	height: 300px;
+	display: block;
+	background-color: azure;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	list-style: none;
+}
+
+.news-title {
+	height: 24px;
+	display: flex;
+}
+
+.news-title #in-memorium {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.news-title #in-memorium h2 {
+	font-size: 11px;
+}
+
+#news-subtitle-1 {
+	height: 40px;
+	margin-top: 5px;
+}
+
+#news-subtitle-1 h3 {
+	font-size: 16px;
+}
+
+#news-content-1 {
+	height: 50px;
+}
+
+#news-content-1 p {
+	font-size: 13px;
+}
+
+#date-1 {
+	height: 15px;
+}
+
+#date-1 p {
+	font-size: 11px;
+	font-weight: bold;
+	color: #767676;
+}
