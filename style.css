@@ -58,6 +58,10 @@ ul {
 	list-style: none;
 }
 
+li{
+	height: 100%;
+}
+
 .news-title {
 	display: flex;
 }
@@ -97,4 +101,37 @@ ul {
 	font-size: 11px;
 	font-weight: bold;
 	color: #767676;
+}
+
+#bottom{
+	display: flex;
+	align-items: baseline;
+	height: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+#read-more{
+	border-top: 2px solid black;
+	padding-top: 5px;
+}
+
+#read-more h2 {
+	font-size: 13px;
+}
+
+#triangle-container{
+	height: 27px;
+	width: 20px;
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+#triangle{
+	height: 8px;
+	width: 10px;
+	border-top: 5px solid rgba(0,0,0,0);
+  border-bottom: 5px solid rgba(0,0,0,0);
+  border-left: 8px solid #000;
 }
