@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+.contenitore2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-width: 10px 0 0 0;
+    border-color: black;
+    border-style: double;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.cont1, .cont2, .cont3, .cont4 {
+    display: flex;
+    width: 25%;
+    border-width: 0 3px 0 0;
+    border-style: solid;
+    border-color: black;
+    height: 100px;
+   
+}
+
+a {
+    color: black;
+    font-size: 11px;
+    
+}
+
+h4 {
+    padding-top: 5px;
+}
+
+img {
+    padding-right: 5px;
+}
+
+.dimen {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+}
+
+a:hover {
+    color: blue;
+}
