@@ -7,12 +7,9 @@
 #second-section {
 	height: 100vh;
 	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 40px;
+	padding: 40px 10%;
 	display: flex;
 	gap: 10%;
-
 }
 #line-1 {
 	height: 5px;
@@ -56,7 +53,7 @@ aside ul {
 	list-style: none;
 }
 
-aside li{
+aside li {
 	height: 100%;
 }
 
@@ -101,7 +98,7 @@ aside .date {
 	color: #767676;
 }
 
-aside #bottom{
+aside #bottom {
 	display: flex;
 	align-items: baseline;
 	height: 40px;
@@ -109,7 +106,7 @@ aside #bottom{
 	color: black;
 }
 
-aside #read-more{
+aside #read-more {
 	border-top: 2px solid black;
 	padding-top: 5px;
 	margin-top: 15px;
@@ -119,7 +116,7 @@ aside #read-more h2 {
 	font-size: 13px;
 }
 
-aside #triangle-container{
+aside #triangle-container {
 	height: 26px;
 	width: 20px;
 	border-top: 2px solid black;
@@ -128,15 +125,15 @@ aside #triangle-container{
 	align-items: center;
 }
 
-aside #triangle{
+aside #triangle {
 	height: 8px;
 	width: 10px;
-	border-top: 5px solid rgba(0,0,0,0);
-  border-bottom: 5px solid rgba(0,0,0,0);
-  border-left: 8px solid #000;
+	border-top: 5px solid rgba(0, 0, 0, 0);
+	border-bottom: 5px solid rgba(0, 0, 0, 0);
+	border-left: 8px solid #000;
 }
 
-#top-part{
+#top-part {
 	margin-top: 5px;
 	padding-top: 32px;
 	padding-bottom: 48px;
@@ -147,38 +144,37 @@ aside #triangle{
 	gap: 48px;
 }
 
-
-#top-part #left{
+#top-part #left {
 	height: 100%;
 	width: 40%;
 	position: relative;
 }
 
-#bottom-part #left{
+#bottom-part #left {
 	height: 100%;
 	width: 40%;
 }
 
 #top-part #right,
-#bottom-part #right{
+#bottom-part #right {
 	height: 100%;
 	width: 60%;
 }
 
-#top-part #right #top{
+#top-part #right #top {
 	height: 80%;
 	width: 100%;
 	display: flex;
 	gap: 5%;
 }
 
-#top-part #left #img-placeholder img{
+#top-part #left #img-placeholder img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
 
-#top-part #left #title-container{
+#top-part #left #title-container {
 	height: 50px;
 	width: 190px;
 	position: absolute;
@@ -191,9 +187,8 @@ aside #triangle{
 	align-items: flex-start;
 }
 
-#top-part #left #title-container #title{
+#top-part #left #title-container #title {
 	height: 90%;
-	width: 181px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -202,26 +197,26 @@ aside #triangle{
 	position: relative;
 }
 
-#top-part #left #title-container #title a{
+#top-part #left #title-container #title a {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-#top-part #left #title-container #double-border{
+#top-part #left #title-container #double-border {
 	height: 3px;
 	width: 100%;
 	background-color: #000;
 	position: absolute;
-	top: 90%;
+	top: 85%;
 }
-#top-part #left article{
+#left article {
 	width: 100%;
 	height: 50%;
 }
 
-#top-part #left article #subtitle{
+#left article #subtitle {
 	width: 100%;
 	height: 30%;
 	margin-top: 10%;
@@ -229,41 +224,37 @@ aside #triangle{
 	align-items: flex-end;
 }
 
-#top-part #left article #subtitle a{
+#left article #subtitle a {
 	font-size: 28px;
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 }
 
-#top-part #left article #subtitle a:hover{
+#left article #subtitle a:hover {
 	color: #929292;
 }
 
-#top-part #left article #article-body{
+#left article #article-body {
 	width: 100%;
 	height: 20%;
 	display: flex;
 	align-items: center;
-}
-
-#top-part #left article #article-body p{
 	font-size: 16px;
 }
 
-
-#top-part #right #top .img-placeholder img{
+#top-part #right #top .img-placeholder img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
 
-#top-part #right #top article .news-title{
+#top-part #right #top article .news-title {
 	display: flex;
 	padding: 10px 0 10px;
 }
 
-#top-part #right #top article .news-title .title{
+#top-part #right #top article .news-title .title {
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -277,83 +268,181 @@ aside #triangle{
 	font-weight: bold;
 }
 
-#top-part #right #top article #subtitle a{
+#top-part #right #top article #subtitle a {
 	text-decoration: none;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
 }
 
-#top-part #right #top article #subtitle a:hover{
+#top-part #right #top article #subtitle a:hover {
 	color: #767676;
 }
- 
-#top-part #right #top article #article-body p{
+
+#top-part #right #top article #article-body p {
 	font-size: 16px;
 	margin: 8px 0 4px;
 }
 
-#top-part #author p{
+#author p {
 	font-size: 13px;
 }
 
-#top-part #author a{
+#author a {
 	text-decoration: none;
 	color: black;
 }
-#top-part #author a:hover{
+#author a:hover {
 	color: #929292;
 	text-decoration: underline;
 }
 
-
-#top-part #right #bottom{
+#top-part #right #bottom {
 	border-top: 1px solid black;
 	padding-top: 24px;
+	margin-top: 30px;
 	font-size: 22px;
 	color: #767676;
 }
-#top-part #right #bottom #link-1{
+#top-part #right #bottom #link-1 {
 	color: red;
 	text-decoration: none;
 }
-#top-part #right #bottom #link-2{
+#top-part #right #bottom #link-2 {
 	color: black;
 	text-decoration: none;
 }
 
-#top-part #right #bottom #link-2:hover{
+#top-part #right #bottom #link-2:hover {
 	color: #767676;
 }
 
-#top-part #right #bottom #link-3{
+#top-part #right #bottom #link-3 {
 	color: #767676;
 	text-decoration: none;
 }
-#top-part #right #bottom #link-3:hover{
+#top-part #right #bottom #link-3:hover {
 	color: #767676;
 	text-decoration: underline;
 }
 
-
-
-#bottom-part{
+#bottom-part {
 	margin-top: 5px;
-	padding-top: 32px;
-	padding-bottom: 48px;
+	padding-top: 40px;
 	border-top: 1px solid black;
 	width: 100%;
-	height: 50%;
-	background-color: #c6ce5b;
-}
-
-#bottom-part{
+	height: 80%;
 	display: flex;
 }
 
-#bottom-part #left{
+#bottom-part #left {
 	height: 100%;
 	width: 50%;
+	padding-right: 48px;
 	border-right: 1px solid black;
-	background-color: #767676;
+	position: relative;
+}
+
+#bottom-part #left #img-placeholder img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#bottom-part #left #title-container {
+	height: 50px;
+	width: 125px;
+	position: absolute;
+	background-color: white;
+	transform: translate(-50%, -50%);
+	left: 14%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 4px;
+}
+
+#bottom-part #left #title-container #title {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+#bottom-part #left #title-container #title a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#bottom-part #left #title-container #double-border {
+	height: 3px;
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	top: 85%;
+}
+
+#bottom-part #left article #subtitle,
+#bottom-part #left article #article-body {
+	margin-bottom: 25px;
+}
+
+#bottom-part #right {
+	padding-left: 48px;
+}
+
+#bottom-part #right #title-container {
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#bottom-part #right #title-container #title {
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+#bottom-part #right #title-container #title a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#bottom-part #right #title-container #double-border {
+	height: 3px;
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	top: 85%;
+}
+
+#bottom-part #right article #subtitle {
+	padding: 16px 0 4px;
+}
+
+#bottom-part #right article #subtitle a {
+	font-size: 53px;
+	text-decoration: none;
+	color: black;
+}
+
+#bottom-part #right article #subtitle a:hover {
+	color: #767676;
+}
+
+#bottom-part #right article #article-body {
+	margin: 12px 0 16px;
+	padding-right: 32px;
 }
