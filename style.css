@@ -40,16 +40,13 @@ aside #heading h1 {
 	font-size: 20px;
 }
 
-aside #content {
-	border-top: 1px solid black;
-	padding-top: 20px;
-}
-
 aside ul {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
 	list-style: none;
+	border-top: 1px solid black;
+	padding-top: 20px;
 }
 
 aside .news-title {
@@ -136,7 +133,6 @@ aside #triangle {
 
 #top-part #left {
 	width: 40%;
-	position: relative;
 }
 
 #top-part #right {
@@ -152,6 +148,7 @@ aside #triangle {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+	position: relative;
 }
 
 .title-container {
@@ -170,7 +167,8 @@ aside #triangle {
 
 #where-we-stand-now-left {
 	width: 190px;
-	left: 27%;
+	left: 37%;
+	margin-left: 2px;
 }
 
 #cover-story {
