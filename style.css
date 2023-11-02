@@ -30,7 +30,8 @@ header{
 }
 
 .left1{
-    margin-left: 50px;
+    
+    margin-left: 150px;
     width: 100%;
     text-align: left;
     flex-direction: column;
@@ -40,17 +41,19 @@ header{
 }
 
 .middle1{
+    margin-left: 20px;
     margin-right: 100px;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column; 
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 200%;
     
 }
 
 .right1{
+    margin-left:100px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -66,10 +69,10 @@ header{
 }
 
 .hamMenu{
-    margin-left: 50px;
+    margin-left: 190px;
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 150px;
     margin-top: 22px;
    
 }
@@ -80,9 +83,10 @@ header{
     width: 100%;
    
 }
+
 .middleLink{
-    margin-left: 20px;
-    margin-right: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column; 
     background-color:white
@@ -91,14 +95,14 @@ header{
 }
 
 .right2{
-    margin-right: 40px;
+    margin-right: 150px;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
 }
 
 .searchBar{
-    gap: 10px;
+    margin-left: 170px;
     display: flex;
     flex-direction: column;
     width: 100%;
