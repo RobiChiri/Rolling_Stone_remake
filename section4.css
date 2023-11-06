@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#section4 {
+	height: 100vh;
+	width: 100%;
+
+	.main-container {
+		height: 100%;
+		padding: 0 20%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+
+		#second-border {
+			height: 1px;
+			width: 100%;
+			background-color: black;
+			position: absolute;
+			top: 5px;
+		}
+
+		#heading {
+			display: flex;
+			align-items: center;
+			border-top: 6px solid black;
+			border-bottom: 1px solid black;
+			margin-top: 5px;
+			padding: 12px 0;
+			position: relative;
+
+			.h1 {
+				font-size: 20px;
+				padding: 16px 0 12px;
+			}
+		}
+
+		#main-list {
+			display: flex;
+			flex-direction: column;
+			list-style: none;
+			padding-top: 8px;
+
+			.story {
+				padding: 28px 0;
+				border-bottom: 1px solid black;
+				display: flex;
+
+				.picture img {
+					width: 290px;
+					height: 190px;
+					object-fit: cover;
+				}
+
+				.content-container {
+					padding: 0 112px 0 28px;
+
+					.news-title {
+						display: flex;
+
+						.title {
+							display: flex;
+							align-items: center;
+							border-bottom: 1px solid black;
+
+							.h2 {
+								font-size: 11px;
+							}
+						}
+					}
+
+					.subtitle {
+						margin: 8px 0 4px;
+
+						.subtitle-link {
+							font-size: 26px;
+							font-weight: bold;
+							text-decoration: none;
+							color: black;
+						}
+
+						.subtitle-link:hover {
+							color: #767676;
+						}
+					}
+
+					.content {
+						font-size: 16px;
+						margin: 10px 0 12px;
+					}
+
+					.author {
+						font-size: 13px;
+
+						.author-link {
+							text-decoration: none;
+							color: black;
+						}
+						.author-link:hover {
+							color: #929292;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+
+			.story:nth-child(4) {
+				.picture img {
+					width: 500px;
+					height: 330px;
+				}
+
+				.title-container {
+					height: 50px;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-start;
+					align-items: flex-start;
+					background-color: white;
+
+					.title {
+						height: 60%;
+						background-color: white;
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						border-bottom: 1px solid black;
+						position: relative;
+
+						.title-link {
+							text-decoration: none;
+							color: black;
+							font-weight: bold;
+							font-size: 15px;
+						}
+					}
+
+					.double-border {
+						height: 3px;
+						width: 100%;
+						background-color: #000;
+						position: absolute;
+						top: 85%;
+					}
+				}
+				.subtitle {
+					margin: 20px 0 10px;
+
+					.subtitle-link {
+						font-size: 35px;
+					}
+				}
+
+				.author {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
