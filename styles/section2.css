@@ -5,9 +5,9 @@
 }
 
 #section2 {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
-	padding: 40px 10%;
+	padding: 40px 8rem;
 	display: flex;
 	gap: 10%;
 
@@ -173,8 +173,8 @@
 
 		#where-we-stand-now-left {
 			width: 190px;
-			left: 37%;
-			margin-left: 2px;
+			left: 35%;
+			margin-left: 10px;
 		}
 
 		#cover-story {

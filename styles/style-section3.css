@@ -58,6 +58,14 @@
 							font-size: 30px;
 							text-decoration: underline;
 						}
+
+						.recomends-link {
+							color: black;
+						}
+
+						.recomends-link:hover {
+							color: #767676;
+						}
 					}
 				}
 			}
@@ -119,6 +127,11 @@
 				gap: 0.5rem;
 				font-size: small;
 				color: black;
+
+				.autore-sec3 {
+					font-size: small;
+					color: black;
+				}
 			}
 		}
 	}
@@ -161,14 +174,14 @@
 				height: 209px;
 
 				.img-quadrata img {
-					background-color: aqua;
 					border: 1px solid white;
 					width: 199px;
 					height: 137px;
 					object-fit: cover;
 				}
+
 				.div {
-					.anticipazione-re {
+					.anticipazioni-re {
 						text-decoration: none;
 						color: black;
 					}
